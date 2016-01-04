@@ -46,26 +46,26 @@
 		}
 	}
 
-	.logo {
-		a.title {
-			color:#fff;
-			padding:4px 5px 4px 3px;
-			display:block;
-			font-size:18px;
-			font-weight:500;
-			float: left;
+.forum-title {
+	font-size:25px;
+}
 
-			&:hover, &:active, &:focus {
-				text-decoration: none;
-			}
-		}
+.forum-logo {
+		float: left;
+		max-height: 40px;
+		width: auto;
+}
 
-		.forum-logo {
-			width: 95px;
-			height: 28px;
-			float: left;
-		}
-	}
+@media only screen and (max-width: 600px) {
+    .forum-title {
+	    line-height :35px;
+        font-size:14px;
+    }
+    .forum-logo {
+    	margin-top : 0px;
+	    max-height: 30px;
+    }
+}
 
 	.logo.menu-in-header {
 		@media (min-width: @screen-md-min) {
