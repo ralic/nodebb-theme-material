@@ -16,12 +16,12 @@
     	<li class="logo <!-- IF config.menuInHeader -->menu-in-header<!-- ENDIF config.menuInHeader -->">
 			<!-- IF brand:logo -->
             <a href="<!-- IF brand:logo:url -->{brand:logo:url}<!-- ELSE -->{relative_path}/<!-- ENDIF brand:logo:url -->">
-                <img alt="{brand:logo:alt}" class="{brand:logo:display} forum-logo" src="{brand:logo}" />
+                <img alt="{brand:logo:alt}" class="forum-logo" src="{brand:logo}" />
             </a>
             <!-- ENDIF brand:logo -->
 
             <!-- IF config.showSiteTitle -->
-			<a class="title" href="{relative_path}/">
+			<a class="forum-title" href="{relative_path}/">
 				{title}
 			</a>
 			<!-- ENDIF config.showSiteTitle -->
