@@ -21,7 +21,7 @@
             <!-- ENDIF brand:logo -->
 
             <!-- IF config.showSiteTitle -->
-			<a class="title" href="{relative_path}/">
+			<a class="forum-title" href="{relative_path}/">
 				{title}
 			</a>
 			<!-- ENDIF config.showSiteTitle -->
